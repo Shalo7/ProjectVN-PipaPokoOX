@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      button webcam_0: 4118803219511264731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

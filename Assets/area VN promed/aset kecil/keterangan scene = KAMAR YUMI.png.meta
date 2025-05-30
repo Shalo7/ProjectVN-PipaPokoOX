@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      keterangan scene = KAMAR YUMI_0: -472118221890417976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
