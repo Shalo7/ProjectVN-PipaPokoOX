@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icon lanjut_0: -1514769064678783580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

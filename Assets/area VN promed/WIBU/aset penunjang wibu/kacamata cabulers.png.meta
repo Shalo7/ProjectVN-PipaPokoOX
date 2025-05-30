@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kacamata cabulers_0: 8324553712099580635
+      kacamata cabulers_1: -4782065968908441836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

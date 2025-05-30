@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      textbox YUMI_0: -7716205971088314941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
