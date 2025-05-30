@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dekstop dan webcam menyala_0: 4705012510845091001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
