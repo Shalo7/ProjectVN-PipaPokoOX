@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      keterangan scene = RUMAH YUMI_0: 8862041837430172821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

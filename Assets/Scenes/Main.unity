@@ -1517,7 +1517,6 @@ GameObject:
   - component: {fileID: 134175109}
   - component: {fileID: 134175111}
   - component: {fileID: 134175112}
-  - component: {fileID: 134175113}
   m_Layer: 0
   m_Name: ACT 2
   m_TagString: Untagged
@@ -1538,21 +1537,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 308.86615, y: -79.77965}
+  scrollPos: {x: 303.0717, y: 54.436794}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 134174880}
-  selectedCommands:
-  - {fileID: 134174893}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 134174808}
   description: 
@@ -1809,7 +1806,7 @@ MonoBehaviour:
   itemId: 19
   blockName: preparation show & setactive ACT 2
   description: 
-  eventHandler: {fileID: 134175113}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 134174818}
   - {fileID: 134174817}
@@ -8313,21 +8310,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &134175113
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134174806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 134174819}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!1 &135410291
 GameObject:
   m_ObjectHideFlags: 0
@@ -10125,6 +10107,7 @@ GameObject:
   - component: {fileID: 374333154}
   - component: {fileID: 374333156}
   - component: {fileID: 374333158}
+  - component: {fileID: 374333159}
   m_Layer: 0
   m_Name: ACT 1
   m_TagString: Untagged
@@ -10145,11 +10128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 31.152847, y: 28.207443}
+  scrollPos: {x: 141.8088, y: -81.948456}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.8500001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -10157,7 +10140,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 374332918}
+  - {fileID: 374332874}
   selectedCommands: []
   variables:
   - {fileID: 374333041}
@@ -10765,7 +10748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 129.87874
+    x: 129.09444
     y: 287.14697
     width: 131.55
     height: 40
@@ -11742,7 +11725,7 @@ MonoBehaviour:
   itemId: 70
   blockName: preparation text
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 374333159}
   commandList:
   - {fileID: 374333014}
   - {fileID: 374332943}
@@ -16510,6 +16493,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 300
   indentLevel: 0
+--- !u!114 &374333159
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374332839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 374332918}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &376290248
 GameObject:
   m_ObjectHideFlags: 0
@@ -18526,7 +18524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 134174807}
+  selectedFlowchart: {fileID: 374332840}
 --- !u!4 &667862580
 Transform:
   m_ObjectHideFlags: 1
@@ -22100,6 +22098,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1107523626}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1036591889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1036591890}
+  - component: {fileID: 1036591891}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1036591890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036591889}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -25.96, y: -24.03, z: 0}
+  m_LocalScale: {x: 1.0264949, y: 1.0264949, z: 1.0264949}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1036591891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036591889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f84540bda638f4bb5704740dce3000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1050531796
 GameObject:
   m_ObjectHideFlags: 0
@@ -37100,3 +37142,4 @@ SceneRoots:
   - {fileID: 483415491}
   - {fileID: 206648883}
   - {fileID: 753048084}
+  - {fileID: 1036591890}

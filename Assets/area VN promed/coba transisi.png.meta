@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coba transisi_0: 5456292194628484550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
